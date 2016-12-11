@@ -1,5 +1,9 @@
 # Pre-reqs
 
+Get electrion tweets data as ```data/election_day_tweets.csv```
+
+Make sure python3 and latest pip is installed:
+
 ```
 pip install --upgrade pip
 brew install python3
@@ -18,5 +22,20 @@ virtualenv venv --python python3
 pip install -r requirements.txt
 ```
 
-jupyter notebook
+# setup
 
+install nltk stopwords:
+
+```
+$ python3
+>>> import nltk
+>>> nltk.download_shell()
+```
+
+and download ```stopwords```
+
+# Running
+
+```
+jupyter notebook
+```
