@@ -1,6 +1,6 @@
 # Pre-reqs
 
-Get electrion tweets data as ```data/election_day_tweets.csv```
+Get election tweets data as ```data/election_day_tweets.csv```
 
 Make sure python3 and latest pip is installed:
 
