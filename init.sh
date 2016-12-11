@@ -3,7 +3,7 @@
 venv_dir="venv"
 
 install() {
-    virtualenv -p /usr/local/Cellar/python3/3.5.0/bin/python3 ${venv_dir}
+    virtualenv --python python3 ${venv_dir}
     pip_update >> /dev/null
 }
 pip_update() {
